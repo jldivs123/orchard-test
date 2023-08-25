@@ -1,5 +1,9 @@
 # Interface Development Test
 
+## Testing this repo
+1. Install deps using `npm i`
+2. Start the dev environment using `yarn dev`
+
 ## Design assets
 * Invision public URL: https://invis.io/N312IJ0C8GMK
 * Assets used in the build have been packaged under the `/assets` folder.
