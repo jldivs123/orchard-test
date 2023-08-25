@@ -68,8 +68,8 @@ export function Header() {
         </div>
         <div className='flex flex-col basis-1/3 px-3 mt-5 lg:mt-0'>
           <div className='flex flex-col'>
-            <h1 className='uppercase text-2xl text-left font-light'>
-              Answer your body's needs
+            <h1 className='text-2xl text-left font-light'>
+              ANSWER YOUR BODY'S NEEDS
             </h1>
             <hr className='h-px my-8 bg-white border-0'></hr>
             <p className='text-lg text-left font-light'>
@@ -85,8 +85,8 @@ export function Header() {
           <div>&nbsp;</div>
           &nbsp;
           <div className='flex flex-col'>
-            <h5 className='uppercase text-left text-lg text-rose-700'>
-              Be mindful
+            <h5 className='text-left text-lg text-rose-700'>
+              BE MINDFUL
             </h5>
             &nbsp;
             <p className='text-left text-xl font-regular'>

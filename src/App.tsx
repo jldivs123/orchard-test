@@ -26,14 +26,14 @@ function App() {
         <Header />
         <div className='flex flex-col'>
           <div className='mt-36 mb-16'>
-            <h1 className='text-4xl lg:text-5xl uppercase font-light'>
-              All the latest from AEG
+            <h1 className='text-4xl lg:text-5xl font-light'>
+              ALL THE LATEST FROM AEG
             </h1>
           </div>
           <div className='flex flex-col justify-center lg:flex-row lg:justify-between'>
             {articles.map((article) => {
               return (
-                <div className='grow-0 flex justify-center'>
+                <div className='grow-0 flex justify-center my-4'>
                   <Link
                     key={article.title}
                     src={article.src}
