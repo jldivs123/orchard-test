@@ -35,9 +35,9 @@ export function Header() {
         </div>
         <div className='flex flex-col basis-1/3 px-3'>
           <div className='flex flex-col'>
-            <h1 className='uppercase text-3xl text-left'>Answer your body's needs</h1>
-            <hr className='h-px my-8 bg-gray-200 border-0 dark:bg-gray-700'></hr>
-            <p className='text-xl text-left'>
+            <h1 className='uppercase text-2xl text-left font-light'>Answer your body's needs</h1>
+            <hr className='h-px my-8 bg-white border-0'></hr>
+            <p className='text-lg text-left font-light'>
               The way ingredients are sourced affects the way we nourished our
               bodies. Author Mark Schatzer belives our body naturally develops
               an appetite for the foods and nutrients it needs to be healthy,
@@ -54,7 +54,7 @@ export function Header() {
           <div className='flex flex-col'>
             <h5 className='uppercase text-left text-lg text-rose-600'>Be mindful</h5>
             &nbsp;
-            <p className='text-left text-xl'>
+            <p className='text-left text-xl font-regular'>
               Sourcing local or organic food is a good way to start being more
               mindful about what you're cooking and eating
             </p>

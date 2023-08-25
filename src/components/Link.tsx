@@ -16,9 +16,9 @@ export function Link({
             <img src={`/assets/component-02/${src}@2x.jpg`} />
           </picture>
         </div>
-        <h4 className="text-xl mt-7 text-left">{title}</h4>
-        <p className="text-left mt-4">{desc}</p>
-        <a className="mt-4 uppercase border-b-rose-600 border-b-2 w-24 cursor-pointer" onClick={(e) => console.log(e.target)}>Read more</a>
+        <h4 className="text-xl mt-7 text-left font-medium">{title}</h4>
+        <p className="text-left mt-4 font-light">{desc}</p>
+        <a className="mt-4 uppercase border-b-rose-600 border-b-2 w-24 cursor-pointer font-medium" onClick={(e) => console.log(e.target)}>Read more</a>
       </div>
     </>
   );

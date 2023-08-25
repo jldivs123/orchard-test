@@ -26,7 +26,7 @@ function App() {
         <Header />
         <div className='flex flex-col'>
           <div className='mt-36 mb-16'>
-            <h1 className='text-4xl lg:text-5xl uppercase'>
+            <h1 className='text-4xl lg:text-5xl uppercase font-light'>
               All the latest from AEG
             </h1>
           </div>
