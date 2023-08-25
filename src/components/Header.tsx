@@ -3,37 +3,37 @@ export function Header() {
     <>
       <div className='flex w-full flex-col lg:flex-row'>
         <div className='image flex basis-2/3 overflow-hidden'>
-          <div className='flex basis-1/2 m-2 border-b-4 border-b-transparent overflow-hidden cursor-pointer hover:border-b-4 hover:border-b-rose-600'>
-            <picture className='max-h-full h-96 object-cover md:h-auto'>
+          <div className='flex basis-1/2 m-2 border-b-4 border-b-transparent overflow-hidden cursor-pointer hover:border-b-4 hover:border-b-rose-700'>
+            <picture className='h-full'>
               <source
                 media='(max-width: 320px)'
                 srcSet='/assets/component-01/Image-01.jpg'
               />
-              <img src='/assets/component-01/Image-01@2x.jpg' />
+              <img src='/assets/component-01/Image-01@2x.jpg' className="object-fill w-full h-full sm:object-fill" />
             </picture>
           </div>
           <div className='flex flex-col basis-1/2 m-2'>
-            <div className="flex grow basis-1/2 mb-2 cursor-pointer hover:border-b-4 hover:border-b-rose-600">
+            <div className="flex grow basis-1/2 mb-2 cursor-pointer hover:border-b-4 hover:border-b-rose-700">
               <picture className='max-h-80'>
                 <source
                   media='(max-width: 320px)'
                   srcSet='/assets/component-01/Image-02.jpg'
                 />
-                <img src='/assets/component-01/Image-02@2x.jpg' />
+                <img src='/assets/component-01/Image-02@2x.jpg' className="object-cover w-full h-full" />
               </picture>
             </div>
-            <div className="flex grow basis-1/2 mt-2 cursor-pointer hover:border-b-4 hover:border-b-rose-600">
+            <div className="flex grow basis-1/2 mt-2 cursor-pointer hover:border-b-4 hover:border-b-rose-700">
               <picture className='max-h-80'>
                 <source
                   media='(max-width: 320px)'
                   srcSet='/assets/component-01/Image-03.jpg'
                 />
-                <img src='/assets/component-01/Image-03@2x.jpg' />
+                <img src='/assets/component-01/Image-03@2x.jpg'  className="object-cover w-full h-full"/>
               </picture>
             </div>
           </div>
         </div>
-        <div className='flex flex-col basis-1/3 px-3'>
+        <div className='flex flex-col basis-1/3 px-3 mt-5 lg:mt-0'>
           <div className='flex flex-col'>
             <h1 className='uppercase text-2xl text-left font-light'>Answer your body's needs</h1>
             <hr className='h-px my-8 bg-white border-0'></hr>
@@ -52,7 +52,7 @@ export function Header() {
           </div>
           &nbsp;
           <div className='flex flex-col'>
-            <h5 className='uppercase text-left text-lg text-rose-600'>Be mindful</h5>
+            <h5 className='uppercase text-left text-lg text-rose-700'>Be mindful</h5>
             &nbsp;
             <p className='text-left text-xl font-regular'>
               Sourcing local or organic food is a good way to start being more
